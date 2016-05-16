@@ -38,6 +38,7 @@
     <Compile Include="vashSample.js" />
     <Compile Include="ejsSample.js" />
     <Compile Include="expressServer.js" />
+    <Content Include=".bowerrc" />
     <Content Include="package.json" />
     <Content Include="public\css\site.css" />
     <Content Include="README.md" />
@@ -53,6 +54,7 @@
     <Folder Include="data\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />
+    <Folder Include="public\lib\" />
     <Folder Include="views\" />
     <Folder Include="views\jade\" />
     <Folder Include="views\ejs\" />
