@@ -1,7 +1,17 @@
-﻿(function (homeController) { 
+﻿(function (homeController) {
+	
+	var data = require("../data");
+	
 	homeController.init = function (app) {
 		app.get("/", function (req, res) {
-			res.render("vash/index", { title: "Express + Vash" });
+			
+			data.getNoteCategories(function (err, results) {
+				res.render("vash/index", {
+					title: "Express + Vash", 
+					error : err, 
+					categories : results
+				});
+			});
 		});
 	};
 	

@@ -32,6 +32,8 @@
   <ItemGroup>
     <Compile Include="controllers\index.js" />
     <Compile Include="controllers\homeController.js" />
+    <Compile Include="data\index.js" />
+    <Compile Include="data\seedData.js" />
     <Compile Include="echoUrlServer.js" />
     <Compile Include="vashSample.js" />
     <Compile Include="ejsSample.js" />
@@ -47,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers\" />
+    <Folder Include="data\" />
     <Folder Include="views\" />
     <Folder Include="views\jade\" />
     <Folder Include="views\ejs\" />
