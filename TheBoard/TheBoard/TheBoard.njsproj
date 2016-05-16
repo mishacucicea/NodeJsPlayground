@@ -30,6 +30,8 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="controllers\index.js" />
+    <Compile Include="controllers\homeController.js" />
     <Compile Include="echoUrlServer.js" />
     <Compile Include="vashSample.js" />
     <Compile Include="ejsSample.js" />
@@ -44,6 +46,7 @@
     <Content Include="views\vash\layout.vash" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="controllers\" />
     <Folder Include="views\" />
     <Folder Include="views\jade\" />
     <Folder Include="views\ejs\" />
